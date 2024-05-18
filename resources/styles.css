@@ -1,1 +1,148 @@
 
+
+body  {
+ padding: 10px;
+ background-image: url("91657.jpg")
+}
+
+/* custom font */
+/* place .ttf in resources on github and change the .ttf in quotes to switch fonts */
+
+@font-face {
+    font-family: customFont;
+    src: url("SuperMarioBros-ov7d.ttf");
+}
+@font-face {
+    font-family: customFont2;
+    src: url("MarioWorldPixelColor-3zBwX.ttf");
+}
+/* header styles */
+/* change text color with the "color:" property use hex colors for best results */
+/* change font size with the "font-size:" property */
+
+.header {
+padding: 0px;
+font-style:normal;
+font-family: customfont;
+}
+
+
+.header h1 {
+  color: #E52521;
+  font-family: 'customFont';
+  font-size: 100px;
+  text-align: center;
+  font-weight:normal;
+}
+
+.image-wrapper {
+	padding: 10px;
+	width: 100% ;
+	text-align: center;
+}
+
+
+
+
+
+/* body text styles */
+/* change text color with the "color:" property use hex colors for best results */
+/* change font size with the "font-size:" property */
+
+.info {
+	padding: 0px;
+}
+
+.info h1 {
+	/*color: rgb(4, 19, 240);*/
+	font-family: 'customFont2';
+	font-size: 150%;
+	text-align: center;
+	font-weight: thin;
+}
+
+ .info p {
+	color: rgb(4, 19, 240);
+	font-family: 'customFont';
+	font-size: 30px;
+	text-align: center;
+}
+.infoTwo {
+	padding: 0px;
+ }
+
+.infoTwo h1 {
+	color: rgb(111, 18, 218);
+	font-family: 'customFont';
+	font-size: 100%;
+	text-align: center;
+}
+
+ .infoTwo p {
+	color: rgb(111, 18, 218);
+	font-family: 'customFont';
+	font-size: 30px;
+	text-align: center;
+}
+
+/* images styles - centering */
+
+.images{
+	padding: 10px;
+	text-align: center;
+	}
+.images2{
+	padding: 50px;
+	text-align: center;
+}
+.images3{
+	padding: 50px;
+	text-align: center;
+}
+/* this is text that displays above images on homepage */
+/* change text color with the "color:" property use hex colors for best results */
+
+.images p {
+	color: red;
+	text-align: center;
+	font-size: 10px;
+}
+.images2 p {
+	color: red;
+	text-align: center;
+	font-size: 10px;
+}
+.images3 p {
+	color: red;
+	text-align: center;
+	font-size: 10px;
+}
+
+/* facebook iframe style */
+.facebook {
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+/* footer */
+.footer {
+  position: fixed;
+  padding: 1px;
+  text-align: center;
+  background: #5491e8;
+  bottom: 0%;
+  left: 0%;
+  font-size: 10px;
+}
+
+
+
