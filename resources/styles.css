@@ -130,12 +130,13 @@ font-family: customfont;
   width: 50%;
 }
 
-@media screen and (max-width:
-400PX) {
-  .image-wrapper {
-    float: none;
-    width: 100%;
-  }
+   @media screen and (max-width:
+   400PX) {
+	 .image-wrapper {
+	   float: none;
+	   width: 100%;
+	 }
+	}
 
 
 /* footer */
