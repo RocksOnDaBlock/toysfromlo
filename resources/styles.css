@@ -48,7 +48,7 @@ font-family: customfont;
 /* body text styles */
 /* change text color with the "color:" property use hex colors for best results */
 /* change font size with the "font-size:" property */
-
+/* text on top of page */
 .info {
 	padding: 0px;
 }
@@ -67,6 +67,7 @@ font-family: customfont;
 	font-size: 30px;
 	text-align: center;
 }
+/* text above bottom photos */
 .infoTwo {
 	padding: 0px;
  }
@@ -91,14 +92,7 @@ font-family: customfont;
 	padding: 10px;
 	text-align: center;
 	}
-.images2{
-	padding: 50px;
-	text-align: center;
-}
-.images3{
-	padding: 50px;
-	text-align: center;
-}
+
 /* this is text that displays above images on homepage */
 /* change text color with the "color:" property use hex colors for best results */
 
@@ -107,36 +101,42 @@ font-family: customfont;
 	text-align: center;
 	font-size: 10px;
 }
-.images2 p {
-	color: red;
-	text-align: center;
-	font-size: 10px;
-}
-.images3 p {
-	color: red;
-	text-align: center;
-	font-size: 10px;
-}
+
 
 /* facebook iframe style */
 .facebook {
 	text-align: center;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+/* edit hours */
+.hours {
+	padding: 10px;
 }
 
-   @media screen and (max-width:
-   400PX) {
-	 .image-wrapper {
-	   float: none;
-	   width: 100%;
-	 }
-	}
+.hours h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: customFont;
+  text-align: center;
+  font-size: 6rem;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hours h2 {
+	padding: 10px;
+	color: green;
+	text-align: center;
+	font-family: customFont;
+}
+.hours h3 {
+	padding: 10px;
+	color: red;
+	text-align: center;
+	font-family: customFont;
+}
 
 
 /* footer */
