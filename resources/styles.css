@@ -54,12 +54,21 @@ font-family: customfont;
 }
 
 .info h1 {
-	/*color: rgb(4, 19, 240);*/
 	font-family: 'customFont2';
 	font-size: 150%;
 	text-align: center;
 	font-weight: thin;
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
 }
+
+/* for h1 fade */
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+
+
 
  .info p {
 	color: rgb(4, 19, 240);
@@ -103,15 +112,15 @@ font-family: customfont;
 }
 
 
-/* facebook iframe style */
+/* facebook wrapper - just centers facebook embed */
 .facebookWrapper {
 	text-align: center;
 }
 
 
-/* edit hours */
+/* hours colors + sizes */
 .hours {
-	padding: 0px;
+	padding: 10px;
 }
 
 .hours h1 {
@@ -122,6 +131,7 @@ font-family: customfont;
   font-size: 6rem;
   background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -144,7 +154,8 @@ font-family: customfont;
   position: fixed;
   padding: 1px;
   text-align: center;
-  background: #5491e8;
+  color: rgb(117, 115, 115);
+  background: #0b013d;
   bottom: 0%;
   left: 0%;
   font-size: 10px;
