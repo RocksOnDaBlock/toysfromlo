@@ -42,7 +42,12 @@ font-family: customfont;
   border-radius: 10px 10px 10px 10px;
 }
 
-
+.eventImageWrapper {
+	padding: 10px;
+	width: 100% ;
+	text-align: center;
+  border-radius: 10px 10px 10px 10px;
+}
 
 
 
