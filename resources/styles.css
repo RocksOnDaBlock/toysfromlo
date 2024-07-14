@@ -180,7 +180,7 @@ font-family: customfont;
 	width: 80px;
 	height: 30px;
 	text-align: center;
-	background-color: rgb(36, 118, 165);
+	background-color: rgb(14, 5, 62);
 	color: black;
 	border: 2px solid rgb(36, 118, 165);
 	text-decoration: none;
@@ -189,6 +189,7 @@ font-family: customfont;
 	transition-duration: 0.1s;
 	margin: 10px;
 	line-height: 30px;
+	color: white;
 }
 
   .eventButton:hover {
@@ -201,7 +202,7 @@ font-family: customfont;
 	width: 100px;
 	height: 40px;
 	text-align: center;
-	background-color: rgb(36, 118, 165);
+	background-color: rgb(14, 5, 62);
 	color: black;
 	border: 2px solid rgb(36, 118, 165);
 	text-decoration: none;
@@ -210,9 +211,31 @@ font-family: customfont;
 	transition-duration: 0.1s;
 	margin: 10px;
 	line-height: 20px;
+	color: white;
 }
 
   .birthdayButton:hover {
+	background-color: #0cdabe;
+	color: white;
+  }
+  .homeButton {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: rgb(14, 5, 62);
+	color: black;
+	border: 2px solid rgb(36, 118, 165);
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	transition-duration: 0.1s;
+	margin: 10px;
+	line-height: 40px;
+	color: white;
+}
+
+  .homeButton:hover {
 	background-color: #0cdabe;
 	color: white;
   }
