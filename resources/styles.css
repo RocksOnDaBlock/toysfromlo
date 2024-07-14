@@ -170,5 +170,49 @@ font-family: customfont;
   font-size: 10px;
 }
 
+.buttonContainer {
+	text-align: center; /* Center align the contents */
+	padding: 10px 10px 10px 10px; /* Adjust padding as needed */
+  }
 
+  .eventButton {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	background-color: rgb(36, 118, 165);
+	color: black;
+	border: 2px solid rgb(36, 118, 165);
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	transition-duration: 0.1s;
+	margin: 10px;
+	line-height: 30px;
+}
 
+  .eventButton:hover {
+	background-color: #0cdabe;
+	color: white;
+  }
+
+  .birthdayButton {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: rgb(36, 118, 165);
+	color: black;
+	border: 2px solid rgb(36, 118, 165);
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	transition-duration: 0.1s;
+	margin: 10px;
+	line-height: 20px;
+}
+
+  .birthdayButton:hover {
+	background-color: #0cdabe;
+	color: white;
+  }
